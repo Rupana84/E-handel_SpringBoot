@@ -18,7 +18,7 @@ This is a simple e-commerce microservices project built with Spring Boot and MyS
 - `POST /products`
 - `DELETE by id/products`
 - `GET /products/users-from-service`
-
+- http://e-handel.eu-north-1.elasticbeanstalk.com/products/users-from-service
 
 ### Microservice-User
 ### User Service
@@ -28,6 +28,7 @@ This is a simple e-commerce microservices project built with Spring Boot and MyS
 - `PUT /users`
 - `DELETE /users`
 - `GET /users/products-from-service`
+- http://userservice-env-1.eba-uxnks3wm.eu-north-1.elasticbeanstalk.com/users/products-from-service
 
 ## Deployment
 
