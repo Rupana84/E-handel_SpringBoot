@@ -19,6 +19,7 @@ This is a simple e-commerce microservices project built with Spring Boot and MyS
 - `DELETE by id/products`
 - `GET /products/users-from-service`
 - http://e-handel.eu-north-1.elasticbeanstalk.com/products/users-from-service
+- https://github.com/Rupana84/e-handel_Microservice/edit/main/nREADME.md#:~:text=.DS_Store-,User_call_products,-.png
 
 ### Microservice-User
 ### User Service
@@ -29,7 +30,7 @@ This is a simple e-commerce microservices project built with Spring Boot and MyS
 - `DELETE /users`
 - `GET /users/products-from-service`
 - http://userservice-env-1.eba-uxnks3wm.eu-north-1.elasticbeanstalk.com/users/products-from-service
-
+- https://github.com/Rupana84/e-handel_Microservice/edit/main/nREADME.md#:~:text=User_call_products.-,png,-nREADME.md
 ## Deployment
 
 Both services are deployed on AWS Elastic Beanstalk and connect to individual AWS RDS MySQL databases.
