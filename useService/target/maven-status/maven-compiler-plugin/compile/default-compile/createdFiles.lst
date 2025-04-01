@@ -1,7 +1,0 @@
-com/example/user/UserApplication.class
-com/example/user/User.class
-com/example/user/SwaggerConfig.class
-com/example/user/WebClientConfig.class
-com/example/user/UserRepository.class
-com/example/user/UserController.class
-com/example/user/UserService.class
