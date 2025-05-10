@@ -5,6 +5,7 @@ import com.e_handel.services.ProductService;
 import com.e_handel.webclient.UserClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,7 +25,7 @@ public class ProductController {
 
     @GetMapping
     public List<Product> getAllProducts() {
-        return productService.getAllProducts();
+        return productService.getAllProducts(Sort.by("id"));
     }
 
     @GetMapping("/{id}")
@@ -49,7 +50,7 @@ public class ProductController {
     }
 
     @GetMapping("/users-from-service")
-    public Mono<String> getUsersFromUserService() {
-        return userClient.getAllUsersFromUserService();
+    public String getUsersFromUserService() {
+        return userClient.getAllUsersFromUserService().block();
     }
 }

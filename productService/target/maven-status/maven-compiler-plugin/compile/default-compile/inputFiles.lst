@@ -5,4 +5,6 @@
 /Users/sawratan/Documents/springBoot/e-handel-microservices/productService/src/main/java/com/e_handel/entity/Product.java
 /Users/sawratan/Documents/springBoot/e-handel-microservices/productService/src/main/java/com/e_handel/repository/ProductRepository.java
 /Users/sawratan/Documents/springBoot/e-handel-microservices/productService/src/main/java/com/e_handel/services/ProductService.java
+/Users/sawratan/Documents/springBoot/e-handel-microservices/productService/src/main/java/com/e_handel/config/OpenApiConfig.java
 /Users/sawratan/Documents/springBoot/e-handel-microservices/productService/src/main/java/com/e_handel/controller/ProductController.java
+/Users/sawratan/Documents/springBoot/e-handel-microservices/productService/src/main/java/com/e_handel/config/CorsConfig.java

@@ -15,7 +15,7 @@ public class ProductClient {
     private final WebClient webClient;
 
     public ProductClient(WebClient.Builder webClientBuilder) {
-        this.webClient = webClientBuilder.baseUrl("http://ORDER-SERVICE").build(); // Going to replace with actual service URL
+        this.webClient = webClientBuilder.build(); // Going to replace with actual service URL
     }
 
     public Mono<Product> getProduct(Long productId) {

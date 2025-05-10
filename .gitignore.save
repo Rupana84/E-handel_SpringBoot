@@ -1,0 +1,28 @@
+**/target/
+*.jar
+
+# Java build files
+target/
+*.class
+
+# Logs
+*.log
+
+# Environment files
+.env
+application.properties
+application.yml
+application-test.properties
+
+# IntelliJ project files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Maven Wrapper
+.mvn/
+!**/mvnw
+!**/mvnw.cmd
+

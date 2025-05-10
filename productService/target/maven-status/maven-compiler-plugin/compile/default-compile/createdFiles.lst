@@ -1,8 +1,11 @@
 com/e_handel/webclient/ProductClient.class
 com/e_handel/config/WebClientConfig.class
+com/e_handel/config/CorsConfig$1.class
 com/e_handel/repository/ProductRepository.class
+com/e_handel/config/OpenApiConfig.class
 com/e_handel/entity/Product.class
 com/e_handel/webclient/UserClient.class
 com/e_handel/controller/ProductController.class
 com/e_handel/services/ProductService.class
+com/e_handel/config/CorsConfig.class
 com/e_handel/ProductServiceApplication.class

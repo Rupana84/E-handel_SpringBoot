@@ -23,9 +23,11 @@ public class UserClient {
                 .uri(userServiceUrl + "/users")
                 .retrieve()
                 .bodyToMono(String.class)
-                .onErrorResume(ex -> {
                     // return fallback or empty response
-                    return Mono.just("[]");
+                    .onErrorResume(ex -> {
+                        ex.printStackTrace(); // OR log it properly
+                        return Mono.just("[]");
+
                 });
     }
 }

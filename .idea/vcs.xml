@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PaymentsMicro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/productService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/useService" vcs="Git" />
   </component>
 </project>
